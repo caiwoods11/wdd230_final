@@ -1,0 +1,833 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poiret+One&display=swap");
+
+html {
+  background-color: #fbfffd;
+}
+#home{
+  display: block;
+}
+.banner{
+  /*margin-top: 40%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; */
+  display: block;
+  min-height:200px;
+  max-height:650px;
+  /* position: relative; */
+    }
+    .logo-scoots{
+      display: inline;
+      width: 175px;
+      margin-bottom: 50px;
+    }
+header{
+  display: block;
+  background-image: url("/img/banner.gif");  
+  background-color: #cccccc;
+  background-size: 100% 600px;
+  background-repeat: no-repeat;
+  height: 600px;
+
+}
+.logo{
+  display: block;
+  width: 150px;
+  margin-left: 168px;
+  margin-top: 200px;
+}
+
+.logo-text{
+  font-family: "Poiret One", cursive;
+  font-weight: 400;
+  font-size: 120px;
+  margin: 10px;
+  position: absolute;
+  width: 400px;
+  margin-left: 50px;
+  margin-top: 270px;
+  color: #fbfffd;
+  letter-spacing: -3px;
+}
+p {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 20px;
+}
+
+h3 {
+  font-family: "Poiret One", cursive;
+  font-weight: 400;
+  font-size: 30px;
+  margin: 10px;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+nav {
+  z-index: 200;
+}
+.nav-contact{
+  margin-right: 0px;
+}
+nav > ul {
+  list-style-type: none;
+  display: flex;
+}
+nav a:link,
+nav a:visited {
+  color: inherit;
+}
+nav a:hover {
+  color: #fbfffd;
+  background-color: #0b2b24;
+}
+.header-content {
+  display: block;
+  margin-top: 0%;
+}
+
+input {
+  font: inherit;
+  margin: 0;
+  overflow: visible;
+}
+
+button {
+  font-family: "Poiret One", cursive;
+  font-weight: 400;
+  font-size: 30px;
+  margin: 10px;
+  overflow: visible;
+  text-transform: none;
+   appearance: button;/* [type="submit"]; */
+  border-style: none;
+  padding: 0;
+  outline: 1px dotted;/* ButtonText;*/
+}
+.sm-icon{
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*<!-- Navbar (sit on top) -->*/
+#nav-bar {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  display: center;
+  width: 100%;
+  vertical-align: middle;
+  padding: 5px;
+  position: fixed;
+  background-color: #fbfffd;
+}
+.nav-logo img{
+  filter: invert();
+  
+}
+
+.nav-logo {
+  display: center;
+  vertical-align: middle;
+  width: 50px;
+  margin-left: 10px;
+}
+.nav-links {
+  width: 100%;
+  text-align: left;
+  padding: 1px;
+}
+.bar {
+  width: 100%;
+  text-align: left;
+  padding: 16px;
+}
+
+/* <!-- Header -->*/
+.logo-img {
+  display: block;
+width:100%;
+}
+
+/* !-- Portfolio Section -->*/
+
+.create-banner {
+  text-align: center;
+}
+#create {
+  padding-top: 70px;
+}
+
+.content-headlines {
+  font-size: 20px;
+}
+
+#section-2 {
+  display: absolute;
+}
+
+#portfolios {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  vertical-align: middle;
+  margin: auto;
+
+}
+.portfolios img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+.content-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+}
+
+.graduate {
+  width: 250px;
+  height: 300px;
+  grid-column: 1;
+  grid-row: 1;
+  order: 1;
+}
+
+.business {
+  width: 250px;
+  height: 300px;
+  grid-column: 2;
+  grid-row:  1;
+  order: 2;
+}
+
+.resume {
+  width: 250px;
+  height: 200px;
+  grid-column: 3;
+  grid-row:  1;
+  order: 3;
+}
+
+.creative {
+  width: 250px;
+  height: 300px;
+  grid-column: 1;
+  grid-row:  2;
+  order: 4;
+
+}
+
+.project {
+  width: 250px;
+  height: 100px;
+  grid-column: 2;
+  grid-row:  2;
+  order: 5;
+}
+
+/* !-- Log-In/Sign Up Section -->*/
+
+#section3 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  display: center;
+  width: 100%;
+  vertical-align: middle;
+  background-color: #fbfffd;
+  padding: 20px;
+}
+.login {
+  text-align: right;
+}
+.signup {
+  text-align: center;
+}
+
+/* !--  About Section -->*/
+#about {
+  text-align: center;
+  padding: 200px;
+}
+#section4 {
+  text-align: center;
+  padding: 20px;
+  font-size: 50px;
+  
+}
+
+#sign-up {
+  text-align: center;
+  padding-bottom: 100px;
+  font-size: 30px;
+  background-color: #8baaad;
+}
+
+#section5 {
+  text-align: center;
+  font-family: "Poiret One", cursive;
+  font-size: 60px;
+  display: grid;
+  grid-template-rows: 1fr;
+  padding: 30px;
+  margin: 10px;
+}
+
+.collapsible {
+  background-color: #0b2b24;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+}
+
+.active,
+.collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f8fffb;
+}
+
+.faq-heading {
+  padding-top: 100px;
+  font-size: 50px; 
+}
+
+#FAQ {
+  padding: 50px;
+}
+
+form {
+  margin: 0 auto;
+  width: 500px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: center;
+  font-size: 1.30rem;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  background-color: #f8fffb;
+}
+input:focus,
+textarea:focus {
+  border-color: #0b2b24;
+}
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+.button {
+  padding-left: 90px;
+  margin-left: 0.5em;
+}
+
+
+.reserve{
+  display: block;
+  border-radius: 5em;
+  padding: 30px;
+  background-color: #833400;
+  box-shadow: 0 0 5px #0b2b24;
+  text-align: center;
+  /* margin-bottom: 50px; */
+  width: 400px;
+  margin-left: 30px;
+}
+
+#feedback {
+  background-color: #f8fffb;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5em;
+  display: none;
+}
+.moveDown {
+  margin-top: 3em;
+}
+/* Style the form */
+#regForm {
+  background-color: #ffffff;
+  margin: 100px auto;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+}
+
+/* Style the input fields */
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #04AA6D;
+}
+
+
+/* Registration css */
+
+body {
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 5px;
+    margin-top: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: #0b2b24;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #0b2b24;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+
+    body, div, form, input, select, textarea { 
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-size: 14px;
+    color: #666;
+    line-height: 22px;
+    }
+    .banner > h1 {
+    font-family: "Poiret One", cursive;
+    font-size: 7.75rem;
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+    color: #fff;
+    width: 100%;
+    left: 20px;
+    margin: 0px;
+    min-height:0px;
+    }
+    .testbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    padding: 20px;
+    }
+    form {
+    width: 100%;
+    padding: 20px;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0 0 20px 0 #333; 
+    }
+   .banner::after {
+   content: "";
+    background-color: rgba(0, 0, 0, 0.4); 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   } 
+    input, textarea, select {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    }
+    input {
+    width: calc(100% - 10px);
+    padding: 5px;
+    }
+    select {
+    width: 100%;
+    padding: 7px 0;
+    background: transparent;
+    }
+    textarea {
+    width: calc(100% - 12px);
+    padding: 5px;
+    }
+    /* .item:hover p, .item:hover i, .question:hover p, .question label:hover, input:hover::placeholder {
+    color: #333;
+    } */
+    .item input:hover, .item select:hover, .item textarea:hover {
+    border: 1px solid transparent;
+    box-shadow: 0 0 6px 0 #333;
+    color: #333;
+    }
+    .item {
+    position: relative;
+    margin: 10px 0;
+    }
+    input[type="date"]::-webkit-inner-spin-button {
+    display: none;
+    }
+    .item i, input[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    font-size: 20px;
+    color: #a9a9a9;
+    }
+    .item i {
+    right: 1%;
+    top: 30px;
+    z-index: 1;
+    }
+    [type="date"]::-webkit-calendar-picker-indicator {
+    right: 0;
+    z-index: 2;
+    opacity: 0;
+    cursor: pointer;
+    }
+    input[type="time"]::-webkit-inner-spin-button {
+    margin: 2px 22px 0 0;
+    }
+    input[type=radio], input.other {
+    display: none;
+    }
+    label.radio {
+    position: relative;
+    display: inline-block;
+    margin: 5px 30px 20px 0;
+    cursor: pointer;
+    width: fit-content;
+    }
+    .question span {
+    margin-left: 30px;
+    }
+    label.radio:before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    }
+    #radio_5:checked ~ input.other {
+    display: block;
+    }
+    input[type=radio]:checked + label.radio:before {
+    border: 2px solid #444;
+    background: #444;
+    }
+    label.radio:after {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    width: 7px;
+    height: 4px;
+    border: 3px solid #fff;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+    opacity: 0;
+    }
+    input[type=radio]:checked + label:after {
+    opacity: 1;
+    }
+    .btn-block {
+    margin-top: 10px;
+    text-align: center;
+    }
+    button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px; 
+    background: #444;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    }
+    button:hover {
+    background: #666;
+    }
+    @media (min-width: 568px) {
+    .name-item, .city-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    .name-item input, .city-item input {
+    width: calc(50% - 20px);
+    }
+    .city-item select {
+    width: calc(50% - 8px);
+    }
+    }
+
+  /* CONTACT FORM CSS */
+/* 
+  label {
+    font-family: 'Open Sans' sans-serif;
+    color: #fff;
+    margin: 0;
+  }
+  .container {
+    display: block;
+    border: 8px solid #414178;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 0 0 10px 10px;
+    max-width: 330px;
+    background-color: #ac9dd1;
+  }
+  .title {
+    display: inline-block;
+  }
+  .title h2 {
+    padding: 0 10px 0 0px;
+    margin: 5px 0;
+    color: #FBFBFB;
+  }
+  form {
+    padding: 10px 10px 0 0;
+  }
+  hr {
+    width: 100%;
+    display: block;
+    margin: 5px 0;
+    height: 5px;
+    border: 0;
+    background-color: #ffffff;
+  }
+  input,
+  textarea {
+    width: 100%;
+    border: 5px solid #FFFFFF;
+    border-radius: 3px;
+    resize: none;
+    padding: 0 5px;
+    box-sizing: border-box;
+    font-family: 'Open Sans' sans-serif;
+    font-size: 16px;
+    color: #000000;
+  }
+  input[type="text"],
+  input[type="email"] {
+    padding: 0 1px;
+    height: 40px;
+    width: 100%;
+  }
+  input:focus,
+  textarea:focus {
+    outline: none;
+  }
+  .form-input {
+    margin: 5px 0 10px 0;
+  }
+  .form-textarea {
+    margin: 5px 0;
+    width: 100%;
+    height: 100px;
+  }
+  input[type="submit"] {
+    width: 100%;
+    height: 50px;
+    background-color: #414178;
+    border: 0;
+    color: #fff;
+    border: 5px solid #414178;
+    border-radius: 8px;
+    margin: 10px 0 0 0;
+    font-family: 'Open Sans' sans-serif;
+    font-size: 22px;
+  } */
+
+
+
+  /* Forecase */
+
+  .days {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .days-col {
+    flex: 1;
+    background-color: #fdfaeb;
+    border-bottom: 1px solid #29527A;
+    border-left: 1px solid #29527A;
+    text-align: center;
+  }
+  
+  .days-col:hover, td:hover {
+    opacity: 0.75;
+    background-color: #29527A;
+    color: white;
+  }
+  .days, .grid {
+    border-right: 1px solid #29527A;
+  }
+  
+  .col-head {
+    display: block;
+    padding: 5px;
+    border-bottom: 1px solid #29527A;
+    text-align: center;
+      font-weight: 700;
+    font-size: 1rem;
+    background-color: #3e668f;
+    color: white;
+  }
+  
+  .data {
+    display: block;
+    padding: 0 5px 5px;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+.content-text h2{
+font-family: 'Sorts Mill Goudy', serif;
+font-size:3.75vw;
+}

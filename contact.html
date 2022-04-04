@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <title>WDD MyPortfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/large.css" />
+  <body id="content">
+    <!-- Navbar (sit on top) -->
+    <section id="nav-bar">
+      <nav class="nav-logo">
+        <a href="index.html" class="nav-logo">  
+          <img
+          src="img/scooter_icon.png"
+          alt="Creative"
+          style="width:99%"
+        /></a>
+      </nav>
+      <!-- Float links to the right. Hide them on small screens -->
+      <div class="nav-links">
+        <span class="nav-contact">Phone: 1-800-867-5309 &nbsp&nbsp | </span>
+        <span class="nav-contact">&nbsp &nbspEmail: scoots@gmail.com</span>
+        <nav>
+          <ul>
+            <li><a href="rentals" class="bar">Rentals</a></li>
+            <li>
+              <a href="reservations" class="bar">Reservations</a>
+            </li>
+            <li>
+              <a href="tours" class="bar">Tours</a>
+            </li>
+            <li>
+              <a href="contact" class="bar">Contact</a>
+            </li>
+            </ul>
+        </nav>
+      </div>
+    </section>
+    <!-- Header -->
+    <section id="home">
+      <header>
+        <img
+          class="logo-img"
+          src="img/banner.jpg"
+          alt="Tropical background"
+        />
+        <p class="logo-text">Sc &nbsp&nbsp ts</p>
+        <img
+        class="logo"
+        src="img/scooter_icon.png"
+        alt=""/>
+        <div class = "header-content">
+          <a href="/reservations.html"><button type="button" class="collapsible reserve">
+          Make A Reservation Now! 
+        </button></a>
+      </header>
+          <!-- FAQ Section -->
+          <section id="section5">
+            <div class="faq-content" id="FAQ">
+                <button type="button" class="collapsible">
+                  Contact Us
+                </button>
+                <div class="wrapper">
+                  <div class="container">
+                    <div class="title">
+                      <h2>
+                        <hr>
+                        Feedback | Special Accomidations | Questions  
+                        <hr>
+                      </h2>
+                    </div>
+                    <form class="form" action="/form/submit" method="POST">
+                      <label for="name">Name</label>
+                      <input class="form-input" type="text" name="name" id="name">
+                      <label for="email">Email</label>
+                      <input class="form-input" type="email" name="email" id="email">
+                      <label>Message</label>
+                      <textarea class="form-textarea" type="text"></textarea>
+                      <input type="submit" value="Submit">
+                    </form>
+                  </div>
+                </div></div>
+            </div> 
+          </section>
+        <!-- Class info -->
+        <footer class="classinfo">
+          <a href="https://twitter.com/?lang=en"><img class="sm-icon" src="img/twitter_icon.png" alt="twitter icon img"></img></a> 
+          <a href="https://www.facebook.com"><img class="sm-icon" src="img/facebook_icon.png" alt="facebook icon img"></img></a> 
+          <a href="https://www.pinterest.com"><img class="sm-icon" src="img/pinterest_icon.png" alt="pinterest icon img"></img></a> 
+         <p>WDD 230 - Cai Woods</p>
+        </footer>
+      </section>
+    <!-- <script src="js/register.js"></script> -->
+    <script src="js/slide_show.js"></script>
+    <script src="js/functions.js"></script>
+  </body>
+
+</html>

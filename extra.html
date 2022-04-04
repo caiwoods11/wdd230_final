@@ -1,0 +1,88 @@
+<!-- Log-In/Sign Up Section -->
+<section id="section3">
+    <div class="login">
+      <a href='loginnew.html'>Log In</a>
+    </div>
+    <div class="signup">
+    <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>Sign Up</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="display-container">
+      <h3 class="content-headlines">
+        Our Purpose
+        <hr />
+      </h3>
+      <p class="about-content">
+        Resumes today follow the same format to make sure they contain
+        keywords to get noticed by HR automation systems. So, when anyone can
+        put jargon and terminology on a resume that sounds impressive, how
+        does one candidate stand out more than the next? I build websites that
+        contain a career portfolio with projects that clients want to share
+        with future employers or further their networking abilities within a
+        wide variety of professional backgrounds.
+      </p>
+    </div>
+  </section>
+
+  <!-- Sign Up Section -->
+  <section id="section4">
+    <div class="form" id="sign-up">
+      <h3 class="content-headlines">
+        Sign Up
+        <hr />
+      </h3>
+      <p>Lets get started and create your MyPortfolio account.</p>
+
+      <body>
+        <div id="feedback"></div>
+        <form action="/my-handling-form-page" method="post">
+          <ul>
+            <li>
+              <label for="name"> Name:</label>
+              <input
+                type="text"
+                id="name"
+                name="user_name"
+                placeholder="Name"
+              />
+            </li>
+            <li>
+              <label for="mail">Email:</label>
+              <input
+                type="email"
+                id="mail"
+                name="user_email"
+                placeholder="Email"
+              />
+            </li>
+            <li class="button">
+              <button type="submit">Create</button>
+            </li>
+          </ul>
+        </form>
+
+        <script>
+          // get the feedback div element so we can do something with it.
+          const feedbackElement = document.getElementById("feedback");
+          // get the form so we can read what was entered in it.
+          const formElement = document.forms[0];
+          // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+          formElement.addEventListener("submit", function(e) {
+            // stop the form from doing the default action
+            e.preventDefault();
+            // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+            feedbackElement.innerHTML =
+              "Hello " +
+              formElement.user_name.value +
+              "! Thank you for your signing up. Please check your email to confirm registration with MyPortfolo!";
+            // make the feedback element visible.
+            feedbackElement.style.display = "block";
+            // add a class to move everything down so our message doesn't cover it.
+            document.body.classList.toggle("moveDown");
+          });
+        </script>
+      </body>
+    </div>
