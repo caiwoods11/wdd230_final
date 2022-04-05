@@ -35,7 +35,7 @@ function output_windchill () {
 async function FetchWeather(){
 
     
-    let url = "http://api.weatherapi.com/v1/current.json?key=103ea9f0eebe4be1825213412221103&q=cozumel&aqi=no&alerts=no"
+    let url = "http://api.weatherapi.com/v1/forecast.json?key=103ea9f0eebe4be1825213412221103&q=cozumel&days=1&aqi=no&alerts=no"
     await fetch(url)
     .then((response) => {
         return response.json();

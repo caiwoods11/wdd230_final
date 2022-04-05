@@ -1,0 +1,93 @@
+{
+"bikes":[
+    {
+        "name":"Honda Metropolitan (49cc)",
+        "max_persons": 1,
+        "reservation": 
+            {
+                "half": 20,
+                "full": 30
+            },
+        "walk_in": 
+            {
+                "half": 25,
+                "full": 35
+            }
+        
+    },
+    {
+        "name": "Honda Dio (110cc)",
+        "max_persons": 2,
+        "reservation": 
+            {
+                "half": 30,
+                "full": 40
+            },
+        "walk_in": 
+            {
+                "half": 35,
+                "full": 45
+            }    
+    },
+    {
+        "name": "Honda PCX150 (149cc)",
+        "max_persons": 2,
+        "reservation": 
+            {
+                "half": 40,
+                "full": 50
+            },
+        "walk_in": 
+            {
+                "half": 45,
+                "full": 55
+            }
+    }
+],
+"atvs":[
+    {
+        "name": "Honda Pioneer ATV",
+        "max_persons": 4,
+        "reservation":
+            {
+                "half": 50,
+                "full": 70
+            },
+        "walk_in": 
+            {
+                "half": 60,
+                "full": 80
+            }
+    }
+],
+"jeeps":[
+    {
+        "name": "Jeep Wrangler —4 door with a/c ",
+        "max_persons": 4,
+        "reservation": 
+            {
+                "half": 70,
+                "full": 100
+            },
+        "walk_in": 
+            {
+                "half": 85,
+                "full": 125
+            }
+    },
+    {
+        "name": "Jeep Wrangler —2 door",
+        "max_persons": 4,
+        "reservation": 
+            {
+                "half": 60,
+                "full": 85
+            },
+        "walk_in": 
+            {
+                "half": 70,
+                "full": 90
+            }
+    }
+]
+}
